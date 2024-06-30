@@ -1,11 +1,82 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rifqi Adiyatma | Portofolio</title>
+    <title>Rifqi Adiyatma</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;800;900&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="./js/scripts.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-    <h1>Hello World!</h1>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-opacity-75 sticky-md-top ">
+        <div class="container">
+            <h2>R<span class="text-primary">A</span>.</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-md-auto">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myservice">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myportfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myexperiences">Resume</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactme">Contact</a>
+                    </li> -->
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!--navbar-->
+    <main data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <!--hero section-->
+        <section class="py-lg-18 py-md-10 py-8 bg-dark" id="home">
+            <div class="container">
+                <!--row-->
+                <div class="row d-flex align-items-center">
+                    <div class="col-xl-5 col-md-6  col-lg-6 col-12">
+                        <div class="mb-5 mb-md-0">
+                            <!--text-->
+                            <span class="text-primary">Hey there,</span>
+                            <!--title-->
+                            <h1 class="mt-4 mb-4 display-3 fw-semibold">I'm Rifqi Adiyatma</h1>
+                            <p class="mb-6 lead">Software Developer</p>
+                            <a href="#" class="btn btn-primary">Contact Me</a>
+                            <!--text-->
+                        </div>
+                    </div>
+                    <!--col-->
+                    <div class="col-xl-5 offset-xl-2 col-md-5 offset-md-1 col-lg-5 offset-lg-1 col-12">
+                        <!--image-->
+                        <div class="position-relative">
+                            <img src="./assets/img/profile-2.jpg" alt="about" class="img-fluid position-relative z-1 rounded-4 ms-lg-n5 ms-md-n3">
+                            <div class="position-absolute top-0 mt-1 ">
+                                <img src="./assets/img/square.svg" alt="square" class="img-fluid w-100 d-none d-lg-block d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--hero section-->
+    </main>
 </body>
 </html>
